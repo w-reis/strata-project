@@ -1,4 +1,23 @@
 body {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   color: #555555;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 35%;
+}
+
+.main-content {
+  width: 65%;
+  margin-left: 35%;
+}
+
+.main-header,
+.main-content {
+  box-sizing: border-box;
+  padding: 124px 54px 72px;
 }
