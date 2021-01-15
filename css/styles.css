@@ -153,3 +153,12 @@ li {
   box-sizing: border-box;
   padding: 124px 54px 72px;
 }
+
+.row {
+  overflow: auto;
+}
+
+.col-half {
+  width: 50%;
+  float: left;
+}
