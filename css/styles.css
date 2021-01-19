@@ -110,6 +110,7 @@ li {
 }
 
 .button-default {
+  display: inline-block;
   background-color: #49bf9d;
   border: 2px solid #49bf9d;
   color: #ffffff;
