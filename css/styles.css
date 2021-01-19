@@ -224,3 +224,13 @@ li {
   width: 50%;
   float: left;
 }
+
+.col-2 {
+  width: 65%;
+  float: left;
+}
+.col-3 {
+  width: 32%;
+  margin-left: 3%;
+  float: left;
+}
