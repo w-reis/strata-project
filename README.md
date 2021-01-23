@@ -1,5 +1,5 @@
 <h1 align="center">
-    Strata Project
+    Strata
 </h1>
 <p align="center">Project made to reinforce the Front-end fundamentals.</p>
 <p align="center">
