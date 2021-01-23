@@ -265,7 +265,7 @@ input:focus, textarea:focus, select:focus{
 }
 
 .main-header,
-.main-content {
+.main-content{
   box-sizing: border-box;
   padding: 124px 54px 72px;
 }
@@ -273,6 +273,40 @@ input:focus, textarea:focus, select:focus{
 .main-header-link img {
   border-radius: 50%;
   overflow: auto;
+}
+
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 35%;
+  text-align: right;
+  padding: 0 54px 72px;
+  box-sizing: border-box;
+  font-weight: normal;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.icon-link {
+  border: 0;
+  color:rgba(255, 255, 255, 0.5)
+}
+.ul-icons, .copyright {
+  list-style: none;
+  font-size: .8em;
+}
+
+.copyright li {
+  display: inline-block;
+}
+
+.copyright li a {
+  color: inherit;
+}
+
+.copyright li a:hover {
+  color: #49bf9d;
 }
 
 .gallery-card img {
