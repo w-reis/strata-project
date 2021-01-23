@@ -331,6 +331,20 @@ input:focus, textarea:focus, select:focus{
   border-radius: 5px;
 }
 
+.img-left{
+  float: left;
+  margin-right: 32px;
+}
+
+.img-right{
+  float: right;
+  margin-left: 32px;
+}
+
+.main-content-section:last-child p {
+  text-align: justify;
+}
+
 .row {
   overflow: auto;
 }
