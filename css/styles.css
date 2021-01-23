@@ -266,6 +266,15 @@ input:focus, textarea:focus, select:focus{
   overflow: hidden;
 }
 
+.gallery-img img {
+  width: 100%;
+}
+
+.gallery-img img, .gallery-thumb img {
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+
 .row {
   overflow: auto;
 }
@@ -289,6 +298,10 @@ input:focus, textarea:focus, select:focus{
 }
 .col-3 {
   width: 32%;
-  margin-left: 3%;
   float: left;
+}
+
+.col-3:nth-child(3n -1)
+{
+  margin: 0 2%;
 }
